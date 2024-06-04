@@ -21,6 +21,11 @@ const people = [
   },
 ];
 
+const oldEnouph =people.filter(person => person.age >= 21)
+console.log(oldEnouph); 
+//const paul = people.filter(person => person.name === "Paul" );
+const paul = people.filter(p => p.name === "Paul" );
+console.log(paul)
 
 // Complex Filtering
 const students = [
